@@ -42,8 +42,10 @@ import ecell from "../assets/company/ecell.png";
 import gssoc from "../assets/company/gssoc.png";
 import hacktoberfest from "../assets/company/hacktoberfest.png";
 import nyaysetu from "../assets/company/nyaysetu.png";
-import amazon from "../assets/company/amazon.png";
-import zyntra from "../assets/company/zyntra.png";
+// import amazon from "../assets/company/amazon.png";
+// import zyntra from "../assets/company/zyntra.png";
+import sleep from "../assets/company/sleep.png";
+import movie from "../assets/company/movie.png";
 
 
 export const navLinks = [
@@ -255,12 +257,12 @@ const projects = [
     source_code_link: "https://github.com/madhurgarg01/Nyay-Setu",
   },
   {
-    name: "Amazon Clone – E-commerce Platform",
+    name: "Movie Verse – Dynamic Movie Selection App",
     description:
-      "This Amazon Clone is a dynamic e-commerce platform replicating key features of the retail giant. It includes product listings, a seamless shopping cart, and user-friendly navigation, all built with a focus on responsive design and smooth user experience.",
+      "A dynamic movie selecZtion platform using React, CSS, and Firebase, integrating a movie API to display trending, popular, and recommended films. It offers an intuitive UI with real-time data updates and seamless navigation.",
     tags: [
       {
-        name: "HTML",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
@@ -268,24 +270,28 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Firebase ",
         color: "pink-text-gradient",
       },
+      {
+        name: "API Integration",
+        color: "blue-text-gradient",
+      },
     ],
-    image: amazon,
-    source_code_link: "https://github.com/madhurgarg01/amazon-clone",
+    image: movie,
+    source_code_link: "https://github.com/madhurgarg01/Movie_versee",
   },
   {
-    name: "Zyntra – On-Demand Ambulance Service",
+    name: "Sleep Management – Tracking System",
     description:
-      "Zyntra is an on-demand ambulance service platform designed to connect users with nearby ambulances during emergencies. Featuring real-time tracking and an intuitive interface, Zyntra ensures quick response times with a responsive and accessible design.",
+      "A comprehensive sleep tracking platform using React, CSS, and Firebase, designed to monitor sleep patterns and provide insightful analytics. It features a clean interface, data visualization, and personalized sleep recommendations.",
     tags: [
       {
-        name: "TypeScript",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "Firebase",
         color: "white-text-gradient",
       },
       {
@@ -297,8 +303,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: zyntra,
-    source_code_link: "https://github.com/",
+    image: sleep,
+    source_code_link: "https://github.com/madhurgarg01/Sleep-tracking",
   },
 ];
 

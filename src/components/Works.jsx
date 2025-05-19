@@ -129,7 +129,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        These projects showcase my technical skills through real-world applications, including Amazon Clone (E-commerce platform), NyaySetu (AI-powered legal assistant), and Zyntra (on demand ambulance service). Each project highlights my ability to design, develop, and deploy effective digital solutions tailored to solve practical problems.
+       These projects highlight my proficiency in building impactful digital solutions, including NyaySetu (AI-powered legal assistant), Movie Verse (dynamic movie selection platform), and Sleep Management (sleep tracking system). Each project demonstrates my expertise in creating user-centric interfaces, integrating APIs, and implementing real-time data management to address specific user needs effectively.
         </p>
       </div>
 
